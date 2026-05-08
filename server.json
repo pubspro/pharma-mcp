@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pubspro/pharma-mcp",
+  "description": "MCP server for clinical and pharmaceutical data — search ClinicalTrials.gov, PubMed, FDA drug labels, FAERS adverse events, and ICH guidelines. No API keys required.",
+  "repository": {
+    "url": "https://github.com/pubspro/pharma-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@pubspro/pharma-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
